@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Dhiny Khairunisa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="container">
+        <a href="index.html" class="logo"><span>Portofolio</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
+            <li><a href="project.html"><i class="fas fa-code"></i> Karya & Project</a></li>
+            <li><a href="media.html"><i class="fas fa-photo-video"></i> Media</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<header class="hero">
+    <div class="container hero-grid">
+        <div class="hero-text">
+            <div class="hero-badge">
+                <span><i class="fas fa-graduation-cap"></i> Mahasiswa Sistem Informasi</span>
+            </div>
+            <h1 class="hero-title">Halo, Saya <span class="highlight">Dhiny Khairunisa</span></h1>
+            <h2 class="hero-subtitle">Aspiring Web Developer</h2>
+            
+            <p class="hero-desc">
+                Seorang mahasiswa Sistem Informasi yang sedang mendalami pengembangan web dengan fokus pada HTML, CSS, dan JavaScript. 
+                Saya senang mengubah ide menjadi kode yang fungsional dan menciptakan pengalaman pengguna yang menarik.
+            </p>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Proyek Selesai</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Teknologi</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2022</span>
+                    <span class="stat-label">Tahun Mulai</span>
+                </div>
+            </div>
+            
+            <div class="hero-actions">
+                <a href="profile.html" class="btn btn-primary">
+                    <i class="fas fa-user"></i> Profil Lengkap
+                </a>
+                <a href="karya.html" class="btn btn-secondary">
+                    <i class="fas fa-code"></i> Lihat Karya
+                </a>
+                <a href="contact.html" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i> Kontak Saya
+                </a>
+            </div>
+        </div>
+        
+        <div class="hero-image">
+            <div class="image-container">
+                <img src="assets/img/profile.jpeg" alt="Dhiny Khairunisa" class="profile-img">
+                <div class="image-overlay"></div>
+                <div class="image-frame"></div>
+            </div>
+            <div class="image-badge">
+                <i class="fas fa-laptop-code"></i>
+                <span>Available for Projects</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</header>
+
+<!-- SKILLS SECTION -->
+<section class="skills-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Keterampilan & Teknologi</span>
+            <h2 class="section-title">Yang Saya Kuasai</h2>
+            <p class="section-desc">
+                Teknologi dan alat yang saya gunakan dalam mengembangkan proyek web
+            </p>
+        </div>
+        
+        <div class="skills-grid">
+            <!-- Frontend Skills -->
+            <div class="skill-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Membangun antarmuka pengguna yang menarik dan responsif</p>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML5</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS3</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Responsive Design</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tools & Others -->
+            <div class="skill-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Lainnya</h3>
+                    <p>Alat pendukung dan teknologi tambahan yang saya gunakan</p>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Git & GitHub</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">VS Code</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Figma</span>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Bootstrap</span>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skills-highlight">
+            <div class="highlight-item">
+                <i class="fas fa-rocket"></i>
+                <h4>Fokus pada Detail</h4>
+                <p>Setiap kode diperhatikan dengan seksama untuk hasil terbaik</p>
+            </div>
+            <div class="highlight-item">
+                <i class="fas fa-mobile-alt"></i>
+                <h4>Responsif</h4>
+                <p>Website dapat diakses optimal di semua perangkat</p>
+            </div>
+            <div class="highlight-item">
+                <i class="fas fa-bolt"></i>
+                <h4>Cepat & Efisien</h4>
+                <p>Kode yang bersih untuk performa optimal</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RECENT PROJECTS -->
+<section class="projects-preview">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Karya Terbaru</span>
+            <h2 class="section-title">Proyek yang Baru Saya Buat</h2>
+            <p class="section-desc">
+                Beberapa contoh proyek web yang telah saya selesaikan
+            </p>
+        </div>
+        
+        <div class="projects-mini-grid">
+            <div class="project-mini-card">
+                <div class="project-mini-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h4>E-Commerce Cookies</h4>
+                <p>Website penjualan cookies dengan sistem keranjang belanja</p>
+                <a href="project.html" class="project-mini-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="project-mini-card">
+                <div class="project-mini-icon">
+                    <i class="fas fa-newspaper"></i>
+                </div>
+                <h4>Mock-Up Berita</h4>
+                <p>Desain website berita dengan layout modern dan responsif</p>
+                <a href="project.html" class="project-mini-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="project-mini-card">
+                <div class="project-mini-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <h4>Data Mahasiswa</h4>
+                <p>Sistem penghitungan data mahasiswa dengan fitur statistik</p>
+                <a href="project.html" class="project-mini-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        
+        <div class="text-center">
+            <a href="project.html" class="btn btn-large">
+                <i class="fas fa-code"></i> Lihat Semua Proyek
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Tertarik Bekerja Sama?</h2>
+            <p>Saya selalu terbuka untuk diskusi proyek baru, kolaborasi, atau kesempatan magang.</p>
+            <div class="cta-actions">
+                <a href="contact.html" class="btn btn-light">
+                    <i class="fas fa-paper-plane"></i> Hubungi Saya
+                </a>
+                <a href="assets/pdf/cv-dhiny.pdf" class="btn btn-outline-light" target="_blank">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>

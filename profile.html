@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Dhiny Khairunisa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* CSS tambahan untuk perapian */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .timeline {
+            margin-top: 20px;
+            border-left: 3px solid #4a6fa5;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .timeline-item {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: -26px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #4a6fa5;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #4a6fa5;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: #4a6fa5;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+        
+        .timeline-content h4 {
+            margin: 0 0 5px 0;
+            color: #333;
+        }
+        
+        .timeline-content p {
+            margin: 0;
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        
+        .about-me-box {
+            background-color: #f9f9ff;
+            border-left: 4px solid #4a6fa5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        
+        .about-me-box p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: #555;
+        }
+        
+        .about-me-box p:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo"><span>Portofolio</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="profile.html" class="active"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="project.html"><i class="fas fa-code"></i> Karya & Project</a></li>
+                <li><a href="media.html"><i class="fas fa-photo-video"></i> Media</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Profile Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">Profil Saya</h1>
+            <p class="page-subtitle">Detail tentang latar belakang, keterampilan, dan tentang saya</p>
+        </div>
+    </header>
+
+    <!-- Profile Content -->
+    <section class="profile-detail">
+        <div class="container">
+            <div class="profile-card">
+                <div class="profile-main">
+                    <div class="profile-img">
+                        <img src="assets/img/profile.jpeg" alt="Dhiny Khairunisa">
+                        <div class="profile-status">
+                            <span class="status-indicator"></span>
+                            <span>Aspiring Developer</span>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <h2>Dhiny Khairunisa</h2>
+                        <p class="profile-tagline">Mahasiswa Sistem Informasi | HTML/CSS/JS Enthusiast</p>
+                        
+                        <div class="profile-details">
+                            <div class="detail-item">
+                                <i class="fas fa-id-card"></i>
+                                <div>
+                                    <strong>NIM</strong>
+                                    <p>251011700376</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <strong>Program Studi</strong>
+                                    <p>Sistem Informasi</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-school"></i>
+                                <div>
+                                    <strong>Kelas</strong>
+                                    <p>01SIFP006</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Alamat</strong>
+                                    <p>Kp. Durian Runtuh</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- About Me Section -->
+                <div class="profile-section">
+                    <h3><i class="fas fa-user-circle"></i> Tentang Saya</h3>
+                    <div class="about-me-box">
+                        <p>Saya adalah seorang mahasiswa Sistem Informasi yang antusias dengan teknologi dan pengembangan web. Dengan latar belakang yang sebelumnya di bidang Farmasi, saya memutuskan untuk mengikuti passion saya dalam dunia teknologi informasi.</p>
+                        <p>Perjalanan saya di dunia pemrograman dimulai dengan mempelajari dasar-dasar HTML, CSS, dan JavaScript. Saya menikmati proses mengubah ide menjadi kode dan melihat bagaimana teknologi dapat menyelesaikan masalah sehari-hari.</p>
+                        <p>Saya percaya bahwa teknologi harus dapat diakses dan bermanfaat bagi semua orang, dan saya berharap dapat berkontribusi dalam menciptakan solusi teknologi yang inklusif dan berdampak positif.</p>
+                    </div>
+                </div>
+                
+                <!-- Educational Background -->
+                <div class="profile-section">
+                    <h3><i class="fas fa-university"></i> Latar Belakang Pendidikan</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025 - Sekarang</div>
+                            <div class="timeline-content">
+                                <h4>Universitas - Sistem Informasi</h4>
+                                <p>Sedang menempuh pendidikan S1 Sistem Informasi dengan fokus pada pengembangan web, basis data, dan analisis sistem. Aktif dalam berbagai kegiatan akademik dan organisasi kampus.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022- 2025</div>
+                            <div class="timeline-content">
+                                <h4>SMK SASMITA JAYA 1 - Jurusan Farmasi</h4>
+                                <p>Lulusan SMK dengan jurusan Farmasi. Pengalaman ini membangun kemampuan analitis, ketelitian, dan pemahaman sistematis yang berguna dalam pemrograman.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="profile-section">
+                    <h3><i class="fas fa-code"></i> Skills & Kompetensi</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>HTML5</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>CSS3</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Responsive Design</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>UI/UX Design</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Git & Version Control</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
